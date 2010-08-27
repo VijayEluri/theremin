@@ -72,19 +72,4 @@
       myapp:secondaryTextColor="#CCCCCC"
 />
 
-<!--  <com.qwapi.adclient.android.view.QWAdView
-          android:id="@+id/QWAd"
-          android:layout_width="fill_parent"
-          android:layout_height="wrap_content"
-          qwad:siteId="Quattro_Wireless_Demo"
-          qwad:publisherId="c3d598cf86144bd4b6e957011336a46e"
-          qwad:mediaType="banner"
-          qwad:placement="bottom"
-          qwad:displayMode="autoRotate"
-          qwad:adInterval="30"
-          qwad:animation="slide"
-    	  qwad:renderAdOnCreate="true"
-    	  qwad:testMode="true"          
-        />
--->
 </LinearLayout>

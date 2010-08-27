@@ -295,22 +295,30 @@ public class Main extends Activity implements SensorEventListener, OnClickListen
 		}else if(v == playFrequencies){
 			if(playFrequencies.isChecked()){
 				fthread_running = true;
+				tracker.trackEvent(
+			            "Clicks",  // Category
+			            "Button",  // Action
+			            "frequencies clicked", // Label
+			            1);       // Value
 			}else{
 				fthread_running = false;
 			}
 			
-		}else if(v == scale_full || v == c4){
+		}else if(v == scale_full){
 			scale_min = 0;
-			scale_max = 28;
+			scale_max = 27;
 		}else if(v == c1){
 			scale_min = 0;
-			scale_max = 7;
+			scale_max = 6;
 		}else if(v == c2){
-			scale_min = 8;
-			scale_max = 14;
+			scale_min = 7;
+			scale_max = 13;
 		}else if(v == c3){
-			scale_min = 15;
-			scale_max = 21;
+			scale_min = 14;
+			scale_max = 20;
+		}else if(v == c4){
+			scale_min = 21;
+			scale_max = 27;			
 		}
 
 	}
