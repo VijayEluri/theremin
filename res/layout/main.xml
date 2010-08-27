@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:myapp="http://schemas.android.com/apk/res/org.ugosan.theremin"
+              android:layout_width="fill_parent" 
+              android:layout_height="fill_parent" 
+              android:orientation="vertical" android:keepScreenOn="true" android:id="@+id/main">
+    
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content" android:id="@+id/offset" android:text="note: C"/>
+    
+
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="horizontal">
+<LinearLayout android:id="@+id/LinearLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:layout_weight="0.60"><ProgressBar android:id="@+id/ProgressBar01" android:layout_height="wrap_content" android:scrollbarAlwaysDrawHorizontalTrack="true" style="?android:attr/progressBarStyleHorizontal" android:layout_width="fill_parent" android:layout_weight="0.50"></ProgressBar>
+
+
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TableRow>
+        
+        
+  <Button android:id="@+id/Button01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.2" android:textSize="15sp" android:text="@string/btn_reset"></Button>
+              
+</TableRow>
+
+   
+</TableLayout>
+
+</LinearLayout><Button android:id="@+id/play" android:textSize="18sp" android:layout_width="wrap_content" android:width="10px" android:layout_height="fill_parent" android:layout_weight="0.35" android:text="@string/btn_play"></Button>
+
+
+</LinearLayout><LinearLayout android:id="@+id/LinearLayout02" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_width="fill_parent">
+              
+                   <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/playbasenote" android:layout_weight="0.6" android:text="@string/chk_basenote"></CheckBox><Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/BaseNoteSpinner" android:layout_weight="0.3"></Spinner>
+
+              
+
+
+
+
+</LinearLayout>
+
+
+
+
+<LinearLayout android:id="@+id/LinearLayout04" android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="fill_parent">
+
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Scale"></TextView>
+
+<RadioGroup android:id="@+id/RadioGroup01" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_width="fill_parent"><RadioButton android:id="@+id/RadioButton05" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="0.2" android:text="  Full"></RadioButton><RadioButton android:id="@+id/RadioButton01" android:layout_height="wrap_content" android:layout_width="wrap_content" android:minWidth="20sp" android:layout_weight="0.2" android:text="  C1" android:checked="true"></RadioButton>
+<RadioButton android:id="@+id/RadioButton02" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="0.2" android:text="  C2"></RadioButton>
+<RadioButton android:id="@+id/RadioButton03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="  C3"></RadioButton>
+<RadioButton android:id="@+id/RadioButton04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="  C4"></RadioButton>
+
+
+</RadioGroup>
+<CheckBox android:id="@+id/CheckBox01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chk_metal"></CheckBox>
+
+
+</LinearLayout>
+
+
+<com.admob.android.ads.AdView
+      android:id="@+id/ad"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      myapp:backgroundColor="#000000"
+      myapp:primaryTextColor="#FFFFFF"
+      myapp:secondaryTextColor="#CCCCCC"
+/>
+
+<!--  <com.qwapi.adclient.android.view.QWAdView
+          android:id="@+id/QWAd"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          qwad:siteId="Quattro_Wireless_Demo"
+          qwad:publisherId="c3d598cf86144bd4b6e957011336a46e"
+          qwad:mediaType="banner"
+          qwad:placement="bottom"
+          qwad:displayMode="autoRotate"
+          qwad:adInterval="30"
+          qwad:animation="slide"
+    	  qwad:renderAdOnCreate="true"
+    	  qwad:testMode="true"          
+        />
+-->
+</LinearLayout>

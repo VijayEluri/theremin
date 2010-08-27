@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Theremin</string>
+    <string name="btn_play">Play</string>
+    <string name="btn_reset">Reiniciar Sensores</string>
+    <string name="chk_basenote">  Nota Base</string>
+    <string name="chk_metal">  Detector de Metais (ouvir frequências)</string>
+
+    <string name="exit_title">Sair</string>
+	<string name="about_title">Sobre</string>
+	<string name="settings_title">Configurações</string>
+	<string name="suggest_title">Sugerir algo</string>
+	
+	
+	
+</resources>

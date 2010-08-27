@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Theremin(广告版)</string>
+    <string name="btn_play">开始</string>
+    <string name="btn_reset">重置传感器</string>
+    <string name="chk_basenote">  基调</string>
+    <string name="chk_metal">  金属探测器(听到频率)</string>
+
+    <string name="exit_title">退出</string>
+	<string name="about_title">关于</string>
+	<string name="settings_title">设置</string>
+	<string name="suggest_title">推荐功能</string>
+	
+	<string name="about_text">
+	Theremin目前还处于内测阶段。可以使用它作为一个金属探测器或是一个乐器。 你可以使用一个金属物体操纵你手机周围的磁场或使用手机来播放一些音调。
+	\n\n
+	== 更新日志 ==\n
+	v0.1 17/08/2010 \n
+	-初始版本(内测)
+	
+	</string>
+	
+</resources>

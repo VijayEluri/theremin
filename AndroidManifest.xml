@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="org.ugosan.theremin"
+      android:versionName="0.1.5 -New layout" android:versionCode="151">
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar" android:debuggable="true">
+        <activity android:name=".Main"
+        			android:screenOrientation="portrait" 
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       <activity android:name=".Calibrate"
+        			android:screenOrientation="portrait" 
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.CALIBRATE" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+<!-- The application's publisher ID assigned by AdMob -->
+<meta-data android:value="a14c40eefa8c381" android:name="ADMOB_PUBLISHER_ID"
+/>
+
+</application>
+
+
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+
+<uses-sdk android:minSdkVersion="4" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+</manifest> 
