@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Theremin</string>
-    <string name="btn_play">Play</string>
-    <string name="btn_reset">Reiniciar Sensores</string>
+    <string name="btn_play">Iniciar</string>
+    <string name="btn_reset">Restaurar sensores</string>
     <string name="chk_basenote">  Nota Base</string>
-    <string name="chk_metal">  Detector de Metais (ouvir frequências)</string>
+    <string name="chk_metal">  Detector de Metal (ouve frequências)</string>
 
     <string name="exit_title">Sair</string>
 	<string name="about_title">Sobre</string>
 	<string name="settings_title">Configurações</string>
-	<string name="suggest_title">Sugerir algo</string>
+	<string name="suggest_title">Sugerir um recurso</string>
 	
+	<string name="about_text">
+	O Theremin está em estado alfa. Use-o como um detector de metais ou como um instrumento musical. Você pode 
+	manipular o campo magnético ao redor do celular com objetos de metal ou seus fone de ouvido para tocar algumas notas.
+	\n\n
+	== changelog ==\n
+	v0.1.2 22/07/2010 \n
+	-force close bug corrected
+	\n
+	v0.1 17/07/2010 \n
+	-first release (alpha)
 	
+	</string>
 	
 </resources>
